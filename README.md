@@ -384,30 +384,16 @@ Xem file đầy đủ tại: [TASK.md](TASK.md)
 - Unit testing với JUnit
 - CI/CD với GitHub Actions
 
-**Điểm số**: 10 điểm bắt buộc + 1.5 điểm nâng cao
-
----
-
-## Báo cáo và Demo
-
-### Báo cáo PDF
-- **Link**: [AuctionUET_Report.pdf](https://drive.google.com/file/d/1I8kn-tHSeL0e8ji8r_qH9RtA9QPxbw1z/view?usp=sharing)
-- Nội dung: Phân tích thiết kế, kiến trúc hệ thống, design patterns, kết quả testing
-
-### Video Demo
-- **Link**: [Xem Video Demo trên YouTube](https://www.youtube.com/watch?v=mM9AWSJR8LM)
-- Nội dung: Demo đầy đủ các chức năng, concurrent bidding, real-time updates
-
 ---
 
 ## Thành viên Nhóm
 
 | Họ và Tên | MSSV | Vai trò | Đóng góp chính |
 |-----------|------|---------|----------------|
-| Tạ Hữu Cường | 25020053 | Team Leader & Core Architect | Phát triển tầng dịch vụ (Auction, Wallet, Bid), tái cấu trúc sản phẩm (flat ItemSchema), tích hợp Gemini Voice Input & Bidding, kiểm soát concurrency và luồng thanh toán. |
-| Ngô Duy Anh | 25020015 | Lead Backend & Quality | Thiết kế OOP Domain models (User, LiveAuction), hệ thống Admin quản trị nâng cao, viết bộ Integration Tests toàn diện và tài liệu ôn tập Viva Guide. |
-| Nguyễn Cao Công | 25020046 | Frontend Lead & Client Dev | Phát triển toàn bộ 22 giao diện JavaFX (FXML & CSS), quản lý Client Network connection, Theme Manager (Light/Dark mode) và luồng xử lý UI luân phiên (Platform.runLater). |
-| Đào Đình Khánh | 25020211 | Network & DevOps Lead | Thiết kế giao thức Protocol truyền tin (Request/Response), triển khai Socket Server & Request Routing, thuật toán Auto-Bidding bảo vệ người dẫn đầu (Pending Auto-Bid) và thiết lập CI/CD GitHub Actions. |
+| 1 | 1' | Team Leader & Core Architect | Phát triển tầng dịch vụ (Auction, Wallet, Bid), tái cấu trúc sản phẩm (flat ItemSchema), tích hợp Gemini Voice Input & Bidding, kiểm soát concurrency và luồng thanh toán. |
+| 2 | 2' | Lead Backend & Quality | Thiết kế OOP Domain models (User, LiveAuction), hệ thống Admin quản trị nâng cao, viết bộ Integration Tests toàn diện và tài liệu ôn tập Viva Guide. |
+| 3 | 3' | Frontend Lead & Client Dev | Phát triển toàn bộ 22 giao diện JavaFX (FXML & CSS), quản lý Client Network connection, Theme Manager (Light/Dark mode) và luồng xử lý UI luân phiên (Platform.runLater). |
+| 4 | 4' | Network & DevOps Lead | Thiết kế giao thức Protocol truyền tin (Request/Response), triển khai Socket Server & Request Routing, thuật toán Auto-Bidding bảo vệ người dẫn đầu (Pending Auto-Bid) và thiết lập CI/CD GitHub Actions. |
 
 ---
 
@@ -419,10 +405,10 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Acknowledgments
 
-- **Giảng viên hướng dẫn**: Phạm Bảo Phúc - Trần Ngọc Trúc Linh
+- **Giảng viên hướng dẫn**: ""
 - **Môn học**: Lập trình Nâng cao
 - **Trường**: Trường Đại học Công nghệ - ĐHQGHN
-- **Học kỳ**: 2/2025-2026
+- **Học kỳ**: 2026-2027
 
 ---
 
@@ -430,6 +416,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 Nếu bạn thấy project hữu ích, hãy cho chúng mình một star!
 
-Made by AuctionUET Team 2026.
+Made by Nhóm 6 2026.
 
 </div>
