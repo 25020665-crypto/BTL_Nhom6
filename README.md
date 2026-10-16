@@ -72,7 +72,7 @@
 
 ```bash
 # Clone repository
-git clone https://github.com/iTCuong090/AuctionUET.git
+git clone https://github.com/25020665-crypto/BTL_Nhom6
 cd AuctionUET
 
 # Build toàn bộ project (bao gồm cả 3 modules)
@@ -368,9 +368,6 @@ java -jar auction-client/target/auction-client-1.0-SNAPSHOT-shaded.jar
 
 ---
 
-## Đề bài Bài tập Lớn
-
-Xem file đầy đủ tại: [TASK.md](TASK.md)
 
 ### Tóm tắt Yêu cầu
 
