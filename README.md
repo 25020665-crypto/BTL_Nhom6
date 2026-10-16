@@ -19,6 +19,8 @@
 
 **AuctionUET** là một hệ thống đấu giá trực tuyến (online bidding platform) được phát triển theo kiến trúc **Client-Server**, cho phép nhiều người dùng cùng tham gia cạnh tranh giá để mua sản phẩm trong thời gian thực. Hệ thống mô phỏng các nền tảng đấu giá thực tế như eBay Auctions với đầy đủ các tính năng cốt lõi và nâng cao.
 
+Mã nguồn ứng dụng được tích hợp từ [iTCuong090/AuctionUET](https://github.com/iTCuong090/AuctionUET) theo giấy phép MIT; thông báo bản quyền và điều khoản được giữ trong file [LICENSE](LICENSE).
+
 ### Phạm vi Hệ thống
 
 - **Quản lý người dùng đa vai trò**: Bidder (người đấu giá), Seller (người bán), Admin (quản trị viên)
@@ -73,7 +75,7 @@
 ```bash
 # Clone repository
 git clone https://github.com/25020665-crypto/BTL_Nhom6
-cd AuctionUET
+cd BTL_Nhom6
 
 # Build toàn bộ project (bao gồm cả 3 modules)
 mvn clean package
@@ -126,7 +128,7 @@ AuctionUET/
 │   ├── data/                # JSON database files
 │   ├── logs/                # Server logs
 │   └── target/
-│       └── auction-server-1.0-SNAPSHOT-shaded.jar  # Server JAR
+│       └── auction-server-1.0-SNAPSHOT.jar  # Server JAR
 │
 ├── auction-client/           # Module Client
 │   ├── src/main/java/com/auctionuet/client/
@@ -139,7 +141,7 @@ AuctionUET/
 │   │   ├── css/             # Stylesheets
 │   │   └── images/          # Icons and images
 │   └── target/
-│       └── auction-client-1.0-SNAPSHOT-shaded.jar  # Client JAR
+│       └── auction-client-1.0-SNAPSHOT.jar  # Client JAR
 │
 ├── docs/                     # Tài liệu và báo cáo
 ├── .github/workflows/        # GitHub Actions CI/CD
@@ -155,8 +157,8 @@ AuctionUET/
 
 Sau khi build thành công, các file JAR sẽ nằm tại:
 
-- **Server JAR**: `auction-server/target/auction-server-1.0-SNAPSHOT-shaded.jar`
-- **Client JAR**: `auction-client/target/auction-client-1.0-SNAPSHOT-shaded.jar`
+- **Server JAR**: `auction-server/target/auction-server-1.0-SNAPSHOT.jar`
+- **Client JAR**: `auction-client/target/auction-client-1.0-SNAPSHOT.jar`
 
 ### Bước 1: Khởi động Server
 
@@ -164,10 +166,10 @@ Sau khi build thành công, các file JAR sẽ nằm tại:
 
 ```bash
 # Chạy Server với port mặc định (8888)
-java -jar auction-server/target/auction-server-1.0-SNAPSHOT-shaded.jar
+java -jar auction-server/target/auction-server-1.0-SNAPSHOT.jar
 
 # Hoặc chỉ định port tùy chỉnh
-java -jar auction-server/target/auction-server-1.0-SNAPSHOT-shaded.jar 9999
+java -jar auction-server/target/auction-server-1.0-SNAPSHOT.jar 9999
 ```
 
 Server sẽ hiển thị banner khởi động và lắng nghe kết nối từ Client:
@@ -179,7 +181,7 @@ Server sẽ hiển thị banner khởi động và lắng nghe kết nối từ 
 Sau khi Server đã chạy, mở terminal/command prompt mới và chạy Client:
 
 ```bash
-java -jar auction-client/target/auction-client-1.0-SNAPSHOT-shaded.jar
+java -jar auction-client/target/auction-client-1.0-SNAPSHOT.jar
 ```
 
 Giao diện JavaFX sẽ hiển thị màn hình đăng nhập.
@@ -196,13 +198,13 @@ Giao diện JavaFX sẽ hiển thị màn hình đăng nhập.
 
 ```bash
 # Terminal 1
-java -jar auction-client/target/auction-client-1.0-SNAPSHOT-shaded.jar
+java -jar auction-client/target/auction-client-1.0-SNAPSHOT.jar
 
 # Terminal 2
-java -jar auction-client/target/auction-client-1.0-SNAPSHOT-shaded.jar
+java -jar auction-client/target/auction-client-1.0-SNAPSHOT.jar
 
 # Terminal 3
-java -jar auction-client/target/auction-client-1.0-SNAPSHOT-shaded.jar
+java -jar auction-client/target/auction-client-1.0-SNAPSHOT.jar
 ```
 
 ---
