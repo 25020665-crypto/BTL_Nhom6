@@ -9,8 +9,6 @@
 
 **Bài tập lớn môn Lập trình Nâng cao - Trường Đại học Công nghệ - ĐHQGHN**
 
-[Đề bài](#đề-bài-bài-tập-lớn) • [Cài đặt](#cài-đặt-và-yêu-cầu-hệ-thống) • [Chạy ứng dụng](#hướng-dẫn-chạy-ứng-dụng) • [Tính năng](#danh-sách-chức-năng) • [Báo cáo](#báo-cáo-và-demo)
-
 </div>
 
 ---
