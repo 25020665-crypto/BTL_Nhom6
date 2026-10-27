@@ -2,9 +2,9 @@
 
 # Hệ thống Đấu giá Trực tuyến AuctionUET
 
-[![Java CI with Maven](https://github.com/iTCuong090/AuctionUET/actions/workflows/ci.yml/badge.svg)](https://github.com/iTCuong090/AuctionUET/actions/workflows/ci.yml)
+[![Java CI with Maven]()]()
 [![Java Version](https://img.shields.io/badge/Java-21-orange.svg)](https://www.oracle.com/java/technologies/javase/jdk21-archive-downloads.html)
-[![Maven](https://img.shields.io/badge/Maven-3.8+-blue.svg)](https://maven.apache.org/)
+[![Maven]()]()
 [![JavaFX](https://img.shields.io/badge/JavaFX-21-green.svg)](https://openjfx.io/)
 
 **Bài tập lớn môn Lập trình Nâng cao - Trường Đại học Công nghệ - ĐHQGHN**
