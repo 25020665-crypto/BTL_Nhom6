@@ -4,7 +4,7 @@
 
 [![Java CI with Maven](https://github.com/quagn-collab/GROUP-6-BTL/actions/workflows/ci.yml/badge.svg))](https://github.com/quagn-collab/GROUP-6-BTL/actions)
 [![Java Version](https://img.shields.io/badge/Java-21-orange.svg)](https://www.oracle.com/java/technologies/javase/jdk21-archive-downloads.html)
-[![Maven]()]()
+[![Maven](https://img.shields.io/badge/Maven-3.10.0+-blue.svg)](https://maven.apache.org/)
 [![JavaFX](https://img.shields.io/badge/JavaFX-21-green.svg)](https://openjfx.io/)
 
 **Bài tập lớn môn Lập trình Nâng cao - Trường Đại học Công nghệ - ĐHQGHN**
@@ -15,7 +15,7 @@
 
 ## Mô tả Hệ thống
 
-**AuctionUET** là một hệ thống đấu giá trực tuyến (online bidding platform) được phát triển theo kiến trúc **Client-Server**, cho phép nhiều người dùng cùng tham gia cạnh tranh giá để mua sản phẩm trong thời gian thực. Hệ thống mô phỏng các nền tảng đấu giá thực tế như eBay Auctions với đầy đủ các tính năng cốt lõi và nâng cao.
+**** là một hệ thống đấu giá trực tuyến (online bidding platform) được phát triển theo kiến trúc **Client-Server**, cho phép nhiều người dùng cùng tham gia cạnh tranh giá để mua sản phẩm trong thời gian thực. Hệ thống mô phỏng các nền tảng đấu giá thực tế như eBay Auctions với đầy đủ các tính năng cốt lõi và nâng cao.
 
 ### Phạm vi Hệ thống
 
@@ -46,7 +46,7 @@
 - **JavaFX Charts** - Biểu đồ trực quan hóa dữ liệu
 
 ### Build & CI/CD
-- **Maven 3.8+** - Build tool và dependency management
+- **Maven 3.10.0+** - Build tool và dependency management
 - **GitHub Actions** - Continuous Integration (CI)
 - **Maven Shade Plugin** - Đóng gói JAR executable
 
@@ -70,7 +70,7 @@
 
 ```bash
 # Clone repository
-git clone https://github.com/25020665-crypto/BTL_Nhom6
+git clone https://github.com/quagn-collab/GROUP-6-BTL
 cd AuctionUET
 
 # Build toàn bộ project (bao gồm cả 3 modules)
@@ -385,10 +385,10 @@ java -jar auction-client/target/auction-client-1.0-SNAPSHOT-shaded.jar
 
 | Họ và Tên | MSSV | Vai trò | Đóng góp chính |
 |-----------|------|---------|----------------|
-| 1 | 1' | Team Leader & Core Architect | Phát triển tầng dịch vụ (Auction, Wallet, Bid), tái cấu trúc sản phẩm (flat ItemSchema), tích hợp Gemini Voice Input & Bidding, kiểm soát concurrency và luồng thanh toán. |
-| 2 | 2' | Lead Backend & Quality | Thiết kế OOP Domain models (User, LiveAuction), hệ thống Admin quản trị nâng cao, viết bộ Integration Tests toàn diện và tài liệu ôn tập Viva Guide. |
-| 3 | 3' | Frontend Lead & Client Dev | Phát triển toàn bộ 22 giao diện JavaFX (FXML & CSS), quản lý Client Network connection, Theme Manager (Light/Dark mode) và luồng xử lý UI luân phiên (Platform.runLater). |
-| 4 | 4' | Network & DevOps Lead | Thiết kế giao thức Protocol truyền tin (Request/Response), triển khai Socket Server & Request Routing, thuật toán Auto-Bidding bảo vệ người dẫn đầu (Pending Auto-Bid) và thiết lập CI/CD GitHub Actions. |
+| 1 | 1' |  |
+| 2 | 2' |  |
+| 3 | 3' |  |
+| 4 | 4' |  |
 
 ---
 
