@@ -2,7 +2,7 @@
 
 # Hệ thống Đấu giá Trực tuyến AuctionUET
 
-[![Java CI with Maven](https://github.com/quagn-collab/GROUP-6-BTL/actions/workflows/ci.yml/badge.svg))](https://github.com/quagn-collab/GROUP-6-BTL/actions)
+[![Java CI with Maven](https://github.com/quagn-collab/GROUP-6-BTL/actions/workflows/ci.yml/badge.svg)](https://github.com/quagn-collab/GROUP-6-BTL/actions)
 [![Java Version](https://img.shields.io/badge/Java-21-orange.svg)](https://www.oracle.com/java/technologies/javase/jdk21-archive-downloads.html)
 [![Maven](https://img.shields.io/badge/Maven-3.10.0+-blue.svg)](https://maven.apache.org/)
 [![JavaFX](https://img.shields.io/badge/JavaFX-21-green.svg)](https://openjfx.io/)
